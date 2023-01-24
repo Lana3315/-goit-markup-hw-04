@@ -204,7 +204,7 @@ ul {
 .list-item .item + .item {
   margin-left: 24px;
 }
- .item::before{
+ .icon-list::before{
   display: block;
   content:'';
   width: 264px;
