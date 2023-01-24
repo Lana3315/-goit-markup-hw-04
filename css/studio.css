@@ -204,7 +204,27 @@ ul {
 .list-item .item + .item {
   margin-left: 24px;
 }
-
+ .item::before{
+  display: block;
+  content:'';
+  width: 264px;
+  height: 112px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: var(--button-background);
+ }
+.icon-strategy::before{
+background-image: url(../images/icons.svg/strategy.svg);
+}
+ .icon-punctuality::before{
+background-image: url(../images/icons.svg/punctuality.svg);
+ }
+ .icon-diligence::before{
+  background-image: url(../images/icons.svg/diligence.svg);
+ }
+ .icon-technologies::before{
+  background-image: url(../images/icons.svg/technologies.svg);
+ }
 h2 {
   text-align: center;
   margin-top: 0;
