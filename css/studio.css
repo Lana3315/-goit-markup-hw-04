@@ -11,6 +11,7 @@
   --footer-logo-color: #f4f4fd;
   --footer-paragraph: #e7e9fc;
   --button-border: #e7e9fc;
+  --customer-border: #8e8f99;
 }
 
 /* Body main colors */
@@ -144,8 +145,12 @@ ul {
   height: 600px;
   margin-left: auto;
   margin-right: auto;
-  background-image: linear-gradient(to right, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)) , 
-  url(../images/icons.svg/people-office.jpg);
+  background-image: linear-gradient(
+      to right,
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/icons.svg/people-office.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -204,27 +209,27 @@ ul {
 .list-item .item + .item {
   margin-left: 24px;
 }
- .icon-list::before{
+.icon-list::before {
   display: block;
-  content:'';
+  content: "";
   width: 264px;
   height: 112px;
   background-repeat: no-repeat;
   background-position: center;
   background-color: var(--button-background);
- }
-.icon-strategy::before{
-background-image: url(../images/icons.svg/strategy.svg);
 }
- .icon-punctuality::before{
-background-image: url(../images/icons.svg/punctuality.svg);
- }
- .icon-diligence::before{
+.icon-strategy::before {
+  background-image: url(../images/icons.svg/strategy.svg);
+}
+.icon-punctuality::before {
+  background-image: url(../images/icons.svg/punctuality.svg);
+}
+.icon-diligence::before {
   background-image: url(../images/icons.svg/diligence.svg);
- }
- .icon-technologies::before{
+}
+.icon-technologies::before {
   background-image: url(../images/icons.svg/technologies.svg);
- }
+}
 h2 {
   text-align: center;
   margin-top: 0;
@@ -299,6 +304,36 @@ h2 {
 }
 .image-card {
   margin-bottom: 32px;
+}
+/* Section customers */
+.customers {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  width: 1128px;
+}
+.partner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  width: 168px;
+  height: 88px;
+  color: var(--customer-border);
+  border: 1px solid var(--customer-border);
+  border-radius: 4px;
+}
+.brand {
+  fill: currentColor;
+}
+.brand:hover,
+.brand:focus {
+  color: var(--accent-link-color);
+}
+.partner:hover,
+.partner:focus {
+  fill: var(--accent-link-color);
+  border: 1px solid var(--accent-link-color);
 }
 
 /* Footer */
