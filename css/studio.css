@@ -390,10 +390,7 @@ h2 {
   margin: 0;
   padding: 0;
 }
-.social-item{
- width: 40px;
- height: 40px; 
-}
+
 .icon-links {
   width: 40px;
   height: 40px;
@@ -410,9 +407,9 @@ color: var(--button-text-active);
 }
 .media:hover, 
 .media:focus{
-background: #31D0AA;
+background: var(--hover-media);
 }
 .icon-links:hover,
 .icon-links:focus{
-  background: #31D0AA;
+  background: var(--hover-media);
 }
