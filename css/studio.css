@@ -12,7 +12,7 @@
   --footer-paragraph: #e7e9fc;
   --button-border: #e7e9fc;
   --customer-border: #8e8f99;
-  --hover-media:#31D0AA;
+  --hover-media: #31d0aa;
 }
 
 /* Body main colors */
@@ -226,7 +226,7 @@ ul {
   background-image: url(../images/icons.svg/punctuality.svg);
 }
 .icon-diligence::before {
-  background-image: url(../images/icons.svg/diligence.svg);
+  background-image: url(../images/icons.svg/strategy.svg);
 }
 .icon-technologies::before {
   background-image: url(../images/icons.svg/technologies.svg);
@@ -290,29 +290,28 @@ h2 {
 .team {
   background: var(--button-background);
 }
-.team-link{
-display: inline-block;
-width:40px;
-height:40px;
-padding: 12px;
-margin-top: 8px;
-margin-bottom: 32px;
-background-color: var(--accent-logo-color);
-border-radius: 50%;
+.team-link {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  padding: 12px;
+  margin-top: 8px;
+  margin-bottom: 32px;
+  background-color: var(--accent-logo-color);
+  border-radius: 50%;
 }
-.team-link + .team-link{
-margin-left:24px;
+.team-link + .team-link {
+  margin-left: 24px;
 }
 
-
-a{
-text-decoration: none;
+a {
+  text-decoration: none;
 }
 
 .team-link:hover,
-.team-link:focus{
- color: var(--button-text-active);
-background-color: var(--accent-link-color); 
+.team-link:focus {
+  color: var(--button-text-active);
+  background-color: var(--accent-link-color);
 }
 
 .team-container .team-list {
@@ -322,6 +321,7 @@ background-color: var(--accent-link-color);
 }
 .team-card {
   background: var(--main-background-color);
+
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
@@ -426,14 +426,14 @@ background-color: var(--accent-link-color);
   border-radius: 50%;
   background: rgba(255, 255, 255, 0.1);
 }
-.media{
-color: var(--button-text-active);
+.media {
+  color: var(--button-text-active);
 }
-.media:hover, 
-.media:focus{
-background: var(--hover-media);
+.media:hover,
+.media:focus {
+  background: var(--hover-media);
 }
 .icon-links:hover,
-.icon-links:focus{
+.icon-links:focus {
   background: var(--hover-media);
 }
