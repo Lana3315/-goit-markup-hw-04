@@ -311,7 +311,7 @@ text-decoration: none;
 
 .team-link:hover,
 .team-link:focus{
- color: #ffffff;
+ color: var(--button-text-active);
 background-color: var(--accent-link-color); 
 }
 

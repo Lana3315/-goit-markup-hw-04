@@ -188,7 +188,8 @@ img {
 .flex-item {
   border: 1px solid var(--button-border);
   width: 360px;
-   margin-right: 24px;
+  margin-right: 24px;
+  margin-bottom: 48px;
 }
 
 .flex-item:nth-child(3n) {
