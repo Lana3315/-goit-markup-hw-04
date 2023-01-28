@@ -342,11 +342,13 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 168px;
   height: 88px;
   color: var(--customer-border);
   border: 1px solid var(--customer-border);
   border-radius: 4px;
+}
+.customer-partner{
+ width: 168px; 
 }
 .brand {
   fill: currentColor;
@@ -396,11 +398,7 @@ a {
 .webstudio-continer {
   margin-left: 120px;
 }
-.flex-footer {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-}
+
 .social {
   margin-bottom: 16px;
   width: 96px;
