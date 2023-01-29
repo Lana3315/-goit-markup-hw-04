@@ -196,8 +196,11 @@ img {
 .flex-item:nth-child(3n) {
   margin-right: 0px;
 }
-.flex-item:hover,
-.flex-item:focus{
+.flex-list{
+ display: block;
+}
+.flex-list:hover,
+.flex-list:focus{
 border: 0.5px solid var(--button-background);
 box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
