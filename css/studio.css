@@ -281,20 +281,22 @@ h2 {
 .team {
   background: var(--button-background);
 }
-.team-link {
-  display: flex;
-  padding: 12px; 
+
+.media-team{
+width:40px;
 }
 .media-list{
 display: flex;
 justify-content: center;
 gap: 24px;
-padding-left: 16px;
-padding-right: 16px;
 margin-top: 8px;
-margin-bottom: 32px;
 }
+
 .team-link{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 40px;
 background-color: var(--accent-logo-color);
 border-radius: 50%;
 }
@@ -321,6 +323,7 @@ a {
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
   text-align: center;
+  padding-bottom: 32px;
 }
 .image-card {
   margin-bottom: 32px;
