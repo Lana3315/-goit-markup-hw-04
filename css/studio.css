@@ -203,24 +203,22 @@ ul {
   background: var(--button-main-text);
 }
 /* section one  */
-.section-benefit{
+.section-benefit {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
-   margin-bottom: 8px;
+  margin-bottom: 8px;
   height: 112px;
   border-radius: 4px;
   background-color: var(--button-background);
 }
 .list-item {
   display: flex;
-
 }
 .list-item .item + .item {
   margin-left: 24px;
 }
-
 
 h2 {
   text-align: center;
