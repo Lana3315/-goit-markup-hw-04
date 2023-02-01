@@ -203,22 +203,22 @@ ul {
   background: var(--button-main-text);
 }
 /* section one  */
-
+.section-benefit{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+   margin-bottom: 8px;
+  height: 112px;
+  border-radius: 4px;
+  background-color: var(--button-background);
+}
 .list-item {
   display: flex;
+
 }
 .list-item .item + .item {
   margin-left: 24px;
-}
-
-.benefit-item{
-display: flex;
-align-items: center;
-justify-content: center;
-margin-bottom: 8px;
-height: 112px;
-border-radius: 4px;
-background-color: var(--button-background);
 }
 
 
@@ -282,23 +282,23 @@ h2 {
   background: var(--button-background);
 }
 
-.media-team{
-width:40px;
+.media-team {
+  width: 40px;
 }
-.media-list{
-display: flex;
-justify-content: center;
-gap: 24px;
-margin-top: 8px;
+.media-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 8px;
 }
 
-.team-link{
-display: flex;
-justify-content: center;
-align-items: center;
-height: 40px;
-background-color: var(--accent-logo-color);
-border-radius: 50%;
+.team-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  background-color: var(--accent-logo-color);
+  border-radius: 50%;
 }
 
 a {
@@ -329,6 +329,7 @@ a {
   margin-bottom: 32px;
 }
 /* Section customers */
+
 .customers {
   display: flex;
   text-align: center;
@@ -338,6 +339,7 @@ a {
 }
 .partner {
   display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   height: 88px;
@@ -345,8 +347,8 @@ a {
   border: 1px solid var(--customer-border);
   border-radius: 4px;
 }
-.customer-partner{
- width: 168px; 
+.customer-partner {
+  width: 168px;
 }
 .brand {
   fill: currentColor;
